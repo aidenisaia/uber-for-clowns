@@ -17,4 +17,6 @@ Rails.application.routes.draw do
   post "/bookings" => "bookings#create"
   post "/bookings/:id" => "bookings#update"
   delete "/bookings/:id" => "bookings#destroy"
+
+  post "/sessions" => "sessions#create"
 end
